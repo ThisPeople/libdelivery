@@ -3,7 +3,7 @@ const https = require('https');
 const url = require('url');
 
 class GameStoreAPISync {
-    constructor(baseURL = 'http://localhost:3000') {
+    constructor(baseURL = 'http://localhost:27765') {
         this.baseURL = baseURL;
     }
 
